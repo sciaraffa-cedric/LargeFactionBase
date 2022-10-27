@@ -5,3 +5,4 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LargeFactionBase\1.1
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LargeFactionBase\1.2\Assemblies\LargeFactionBase.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LargeFactionBase\LargeFactionBase\obj\Debug\LargeFactionBase.csprojAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LargeFactionBase\1.3\Assemblies\LargeFactionBase.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LargeFactionBase\1.4\Assemblies\LargeFactionBase.dll

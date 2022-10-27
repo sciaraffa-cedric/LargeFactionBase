@@ -134,7 +134,7 @@ namespace LargeFactionBase
                         PowerNet powerNet2;
                         IntVec3 dest;
                         Building building;
-                        if (this.TryFindClosestReachableNet(powerComp.parent.Position, (PowerNet x) => x.CurrentEnergyGainRate() - powerComp.Props.basePowerConsumption * CompPower.WattsToWattDaysPerTick > 1E-07f, map, out powerNet2, out dest))
+                        if (this.TryFindClosestReachableNet(powerComp.parent.Position, (PowerNet x) => x.CurrentEnergyGainRate() - powerComp.Props.PowerConsumption * CompPower.WattsToWattDaysPerTick > 1E-07f, map, out powerNet2, out dest))
                         {
                             map.floodFiller.ReconstructLastFloodFillPath(dest, this.tmpCells);
                             bool flag = false;
@@ -197,7 +197,7 @@ namespace LargeFactionBase
         private bool IsPowerUser(Thing thing)
         {
             CompPowerTrader compPowerTrader = thing.TryGetComp<CompPowerTrader>();
-            return compPowerTrader != null && (compPowerTrader.PowerOutput < 0f || (!compPowerTrader.PowerOn && compPowerTrader.Props.basePowerConsumption > 0f));
+            return compPowerTrader != null && (compPowerTrader.PowerOutput < 0f || (!compPowerTrader.PowerOn && compPowerTrader.Props.PowerConsumption > 0f));
         }
 
         private bool IsPowerGenerator(Thing thing)
@@ -207,7 +207,7 @@ namespace LargeFactionBase
                 return true;
             }
             CompPowerTrader compPowerTrader = thing.TryGetComp<CompPowerTrader>();
-            return compPowerTrader != null && (compPowerTrader.PowerOutput > 0f || (!compPowerTrader.PowerOn && compPowerTrader.Props.basePowerConsumption < 0f));
+            return compPowerTrader != null && (compPowerTrader.PowerOutput > 0f || (!compPowerTrader.PowerOn && compPowerTrader.Props.PowerConsumption < 0f));
         }
 
         private bool HasAnyPowerGenerator(PowerNet net)

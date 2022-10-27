@@ -34,8 +34,8 @@
             <fixedParams>
               <filter>
                 <thingDefs>
-				  <li>PsychicInsanityLance</li>
-				  <li>PsychicShockLance</li>					  
+				  <li>Apparel_PsychicInsanityLance</li>
+				  <li>Apparel_PsychicShockLance</li>					  
 	              </thingDefs>
               </filter>
             </fixedParams>

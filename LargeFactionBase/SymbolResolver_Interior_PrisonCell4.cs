@@ -38,7 +38,7 @@ namespace RimWorld.BaseGen
                 BaseGen.symbolStack.Push("prisonFilth", rp);
             }
 
-            for (int i = 0; i < Rand.Range(2, 6); i++)
+            /*for (int i = 0; i < Rand.Range(2, 6); i++)
             {
                 BaseGen.symbolStack.Push("corpse", rp);
             }
@@ -49,7 +49,7 @@ namespace RimWorld.BaseGen
             for (int i = 0; i < Rand.Range(2, 4); i++)
             {
                 BaseGen.symbolStack.Push("corpse3", rp);
-            }
+            }*/
 
         }
         /*BaseGen.symbolStack.Push("corpse", rp);

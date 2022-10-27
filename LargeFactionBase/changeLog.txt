@@ -1,0 +1,8 @@
+1.4 update:
+bug fixes:
+- pawn generation (SymbolResolver_Corpse)
+- power consumption (GenStep_LargePower)
+- pawn generation (SymbolResolver_EdgeDefense2)
+- remove soldier (Large_PawnKindDef)
+- change def Psychic stuff in (ThingSetMakers_MapGen)
+- remove corpses in interiors

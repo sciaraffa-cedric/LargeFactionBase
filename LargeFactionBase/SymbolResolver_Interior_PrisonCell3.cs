@@ -40,14 +40,14 @@ namespace RimWorld.BaseGen
             BaseGen.symbolStack.Push("prisonFilth", rp);
             BaseGen.symbolStack.Push("prisonFilth", rp);
 
-            if (Rand.Value > 0.5f)
+            /*if (Rand.Value > 0.5f)
             {
                 BaseGen.symbolStack.Push("corpse3", rp);
             }
             else
             {
                 BaseGen.symbolStack.Push("corpse", rp);
-            }
+            }*/
 
         }
                 /*BaseGen.symbolStack.Push("corpse", rp);

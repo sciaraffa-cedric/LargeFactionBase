@@ -29,9 +29,9 @@ public class SymbolResolver_EmptyRoom2 : SymbolResolver
             BaseGen.symbolStack.Push("prisonFilth", rp);
         }
 
-        BaseGen.symbolStack.Push("corpse", resolveParams2);
+        //BaseGen.symbolStack.Push("corpse", resolveParams2);
 
-        BaseGen.symbolStack.Push("corpse3", resolveParams2);
+        //BaseGen.symbolStack.Push("corpse3", resolveParams2);
 
         //BaseGen.symbolStack.Push("clear", rp);
 
